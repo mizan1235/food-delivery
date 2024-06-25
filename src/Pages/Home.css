@@ -1,0 +1,683 @@
+/* Header CSS */
+
+.container-fluid{
+ background-color:#fff;
+ box-shadow:0 0 10px #0000001a;
+}
+.toggle{
+    width: 100%;
+    height: 100%;
+}
+
+
+* Footer Css */
+
+
+
+.footer_header{
+    /* margin-top: auto; */
+   
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    
+    bottom: 0px; 
+    width: 100%;
+    border: 2px solid red;
+}
+.footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* margin: 10px; */
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.footer-item{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    margin: auto;
+    /* border: 2px solid red;     */
+    color: white;
+}
+.footer-image{
+    max-width: 40px;
+    max-height: 40px;
+
+}
+.item-1{
+    /* background: aqua; */
+    margin: 10px;
+
+}
+.footer-item img{
+    cursor: pointer;
+    margin: 10px;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    
+}
+
+/* Registration Card */
+.reg-emp{
+    /* border: 2px solid red; */
+    margin: 10px;
+    padding: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+   
+    
+    /* border: 2px solid red; */
+    
+}
+.form-cont-screen-fix{
+    min-height: 80vh;
+    border: 2px solid red;
+    margin: 5px;
+    display: flex;
+    background: #ff7e5f;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.reg-emp-item{
+    /* border: 2px solid red; */
+    margin: 10px;
+    width: 100%;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+}
+
+.MuiButtonBase-root >a{
+    
+    color: white;
+    text-decoration: none;
+}
+#outlined-basic{
+    
+    text-align: center;
+    align-items: center;
+}
+
+/* header CSS */
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.657);
+    color: white;
+    justify-content: space-between;
+}
+
+.header-element{
+    padding: 5px;
+    border: 2px solid red;
+}
+
+/* product category header */
+.food-category-container{
+    /* border: 2px solid red; */
+    /* max-height: 230px; */
+    display: flex;
+    overflow-x:hidden;
+    flex-wrap: wrap;
+   
+
+}
+.headline{
+    font-family:"revert";
+    padding-left: 15%;
+}
+.food-category-item{
+    /*  border: 2px solid red; */
+    padding: 5px;
+    margin-right: 20px;
+    max-width: 220px;
+    max-height: 220px;
+}
+.food-category-item >img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#outlined-basic{
+    width: 220px;
+}
+.gps{
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    border: 2px solid red;
+}
+.gps >img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/* product add css */
+.select-cat{
+    min-width: 250px;
+    height: 55px;
+    /* border: 2px solid red; */
+   
+}
+
+.card{
+    /* border: 2px solid red; */
+    width: 17rem;
+    margin: auto;
+    height: 380px;
+    margin-top: 10px;
+    background-color:#fff;
+ box-shadow:0 0 10px #0000001a;
+}
+.card >img{
+    /* border: 2px solid red; */
+    margin: 2px;
+    height: 160px;
+    cursor: pointer;
+}
+.getProduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.productwrapper{
+   /* background: aqua; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.card-body{
+    /* border: 2px solid red; */
+    margin: 5px;
+}
+.card-item{
+    /* border: 2px solid red; */
+    height: 30px;
+    overflow: hidden;
+}
+.btn-1{
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 0px;
+    background: aqua;
+    cursor: pointer;
+    margin-top: 3px;
+    border-radius: 20px;
+    text-align: center;
+}
+/* user-account css */
+.account-container{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    display: flex;
+   
+
+}
+@media screen and (max-width: 600px) {
+    .account-container{
+          
+           flex-wrap: wrap;
+    }
+       
+   }
+
+.account-element{
+    /* border: 2px solid red; */
+    /* margin: 3px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 8px; */
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    margin: auto;
+    padding: 10px;
+}
+.account-details{
+    /* border: 2px solid red; */
+    margin: 4px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    min-width: 200px;
+   
+}
+.image{
+    /* border: 2px solid red; */
+    margin :2px;
+    width: 30%;
+    min-width: 100px;
+    /* margin-right: auto; */
+}
+.image>img{
+    width: 70px;
+    height: 70px;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+.hello{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    /* border: 2px solid red; */
+    margin :2px;
+    width: 70%;
+    text-align: center;
+}
+
+.account-details2{
+    /* border: 2px solid red; */
+    padding: 3px;
+    width: 100%;
+}
+.account-item{
+    padding: 10px;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    margin: 1px;
+    box-shadow:0 0 10px #0000001a;
+    
+}
+.order:hover{
+    color: blue;
+    cursor: pointer;
+}
+.account-item-data{
+    padding: 10px;
+}
+.account-item-data:hover{
+    color: blue;
+    cursor: pointer;
+}
+.Link-class{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.profile-info{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin :8px;
+}
+.profile-information{
+    font-size: 25px;
+    padding-left: 20px;
+    margin: 8px;
+}
+.profile-information>#outlined-basic{
+    font-size:30px; 
+     width: 100%;
+    text-align: left;
+}
+/* address card css */
+.address-container{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+}
+.address-header{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    margin :2px;
+    background: #2874f0;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;   
+    
+}
+.address-elements{
+    margin: 5px;
+    font-size: 25px;
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    padding-left: 9px;
+}
+.add-address-btn{
+    margin-bottom: 5px;
+   
+    width: 100%;
+}
+.address-item{
+    /* border: 2px solid red; */
+    padding-left: 20px;
+    overflow-x: hidden;
+}
+.payment-container{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    display: flex;
+   
+}
+.width{
+    width: 100%;
+
+}
+@media screen and (max-width: 600px) {
+    .payment-container{
+          
+           flex-wrap: wrap;
+    }
+    .payment-element{
+        width: 100%;
+    }
+       
+   }
+
+.payment-element{
+    /* border: 2px solid red; */
+    /* margin: 3px; */
+    
+    /* margin: 8px; */
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    /* margin: auto; */
+    padding: 10px;
+}
+.payment-items{
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    margin: 10px;
+    padding: 10px;
+}
+.payment-item{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid red;
+    
+}
+#payment{
+ border: 2px solid red;
+}
+.price-details{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    margin: 1px;
+    /* margin-top: 10px; */
+}
+
+/* confirm-order css */
+.confirm-order-details {
+    margin-top: 20px;
+  }
+  
+  .confirm-order-details p {
+    margin: 8px 0;
+  }
+  
+  .confirm-order-details span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .continue-shopping {
+    margin-top: 20px;
+  }
+  
+  .continue-shopping p {
+    margin-bottom: 10px;
+  }
+  
+  .continue-shopping a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-shopping a:hover {
+    background-color: #45a049;
+  }
+  .social-share {
+    margin-top: 20px;
+  }
+  
+  .social-share p {
+    margin-bottom: 10px;
+  }
+  .order-placed-success {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-placed-success h2 {
+    color: #4CAF50;
+  }
+  .order-container{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .order-card{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    margin: 10px;
+  }
+  .order-card-item{
+    /* border: 2px solid red; */
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 8px; */
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    margin: auto;
+    padding: 10px;
+  }
+    .order-card-item-label{
+        /* border: 2px solid red; */
+        margin :2px;
+        width: 30%;
+        /* margin-right: auto; */
+    }
+    .order-card-item-value{
+        /* border: 2px solid red; */
+        padding: 3px;
+        width: 70%;
+    }
+
+  /* user-cart css */
+
+.user-cart-container{
+    /* border: 2px solid red; */
+    margin: 2px;
+    display: flex;
+    /* justify-content: center;
+    align-items: space-between; */
+}
+.user-cart-element{
+    margin: 2px;
+    /* border: 2px solid red; */
+    /* min-width: 300px; */
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+}
+@media screen and (max-width:600px) {
+    .user-cart-container{
+        flex-wrap: wrap;
+    }
+    .user-cart-element{
+        min-width: 100%;
+        /* border: 2px solid red; */
+    }
+    
+}
+.user-cart-items{
+    /* border: 2px solid yellow; */
+    margin: 2px;
+    display: flex;
+    width: 100%;
+}
+.imageCard{
+    width: 130px;
+    height: 130px;
+    /* border: 2px solid red; */
+    margin: 2px;
+}
+.imageCard>img{
+    width: 100%;
+    height: 100%;
+}
+.cart-title{
+    /* border: 2px solid red; */
+    margin: 2px;
+    /* width: 100%; */
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 10px;
+}
+.btn-cart
+{
+    width: 200px;
+    margin: 8px;
+    font-size: 30px;
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+}
+.cart-cart{
+
+    background-color:#fff;
+    box-shadow:0 0 10px #0000001a;
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 7px;
+}
+.cart-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.items-cart-price{
+    width: 100%;
+    margin: 2px ;
+    /* border: 2px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+.app-container1 {
+    font-family: Arial, sans-serif;
+  }
+   
+.container1 {
+  margin: 2rem;
+  display: flex;
+  /* border: 2px solid red; */
+}
+.cont1-item{
+    margin: 5px;
+    /* border-radius: 15px; */
+}
+label {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 500px;
+  max-width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
